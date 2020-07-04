@@ -24,6 +24,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'docker-test-acr'
-    repository: 'meetup-repos'
+    repository: 'DB1CRUD1MeetUp'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
