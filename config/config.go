@@ -16,7 +16,7 @@ var Config Configuration
 
 func LoadConfig() {
 	Config = Configuration{}
-	Config.PORT=":9000"
+	Config.PORT=":80"
 	Config.DB_USERNAME="meetup"
 	Config.DB_PASSWORD="9tS3qY8BKwXb1n8d"
 	//err := gonfig.GetConf("./config/config.json", &Config)
