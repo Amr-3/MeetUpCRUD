@@ -19,7 +19,7 @@ func main() {
 	}
 	router.GET("/", func (c *gin.Context){
 		c.JSON(200, gin.H{
-			"message": "welcome to CRUD",
+			"message": "welcome to CRUD w7na fe Dunkin ya ayoub :D ",
 		})
 	})
 	router.Run(Config.PORT)
